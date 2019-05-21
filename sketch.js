@@ -42,6 +42,6 @@ function mouseDragged() {
   function windowResized() {
  
     resizeCanvas(windowWidth, windowHeight);
-  
+  background(214,237,248);
     redraw();
   }
