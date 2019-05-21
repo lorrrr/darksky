@@ -12,7 +12,7 @@ function setup() {
 function draw() {
   
 
-    t=250;
+  t=250;
   fill(11,31,55);
   noStroke();
   ellipse(mouseX,mouseY,t);
@@ -37,3 +37,11 @@ function mouseDragged() {
   // background(214,237,248,10);}
 }
 
+
+
+  function windowResized() {
+ 
+    resizeCanvas(windowWidth, windowHeight);
+  
+    redraw();
+  }
